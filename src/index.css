@@ -45,6 +45,13 @@ main {
   justify-content: center;
   align-items: center;
 }
+
+h1 {
+  text-align: center;
+  color: goldenrod;
+  font-weight: bold;
+  cursor: pointer;
+}
 section h1 {
   text-align: center;
   padding: 1rem;

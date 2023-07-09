@@ -4,10 +4,12 @@ import ContinentsPage from './pages/ContinentsPage';
 import CountriesPage from './pages/CountriesPage';
 import DestinationsPage from './pages/DestinationsPage';
 import DestinationDetails from './pages/DestinationDetails';
+import Header from './components/Header';
 
 const App = () => {
   return (
     <Router>
+      <Header />
       <Routes>
         <Route path='/' element={<ContinentsPage />} />
         <Route path='/continent/:name' element={<CountriesPage />} />
