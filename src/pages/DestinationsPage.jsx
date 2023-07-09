@@ -14,7 +14,7 @@ const DestinationsPage = () => {
   return (
     <main>
       <section>
-        <h2>Which Country Would You Like To Tour ?</h2>
+        <h2>Which Destination appeals you the most ?</h2>
         <div className='card-container'>
           {country?.destinations.map(({ id, name, image }) => (
             <ImageCard
