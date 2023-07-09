@@ -1,0 +1,22 @@
+.imageCard {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  position: relative;
+  margin: 0.5rem;
+  outline: 2px solid goldenrod;
+  cursor: pointer;
+}
+
+.imageCard img {
+  width: 200px;
+  height: 200px;
+}
+
+.imageCard p {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  left: 0.5rem;
+  font-weight: bold;
+}
